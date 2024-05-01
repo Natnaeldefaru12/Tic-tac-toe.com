@@ -1,0 +1,103 @@
+/* body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family:'Poppins',sans-serif;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:25vh;
+    width:100%;
+    background-color:rgb(117, 34, 245);
+    margin-bottom: 70px;
+}
+main{
+    display:flex;
+   justify-content: center;
+
+}
+.player{
+    color:black;
+    font-weight: 700;
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px;
+    border-radius: 6px;
+    padding:30px;
+    color:rgb(208, 208, 166);   
+    border-radius: 3px;
+    width: 15rem;
+    height:4rem;
+    background-color: rgb(117, 34, 245);
+    text-align: center;
+}
+
+.player-name{
+    color:rgb(70, 21, 159)
+}
+.signs{
+    font-size: 4rem;
+    color:black;
+    font-weight: 700;
+}
+section{
+    margin:30px;
+    border-radius: 8px;
+    padding:20px;
+    width:15rem;
+    height:8rem;
+    background-color: rgb(234, 220, 247);
+    
+}
+h1,p{
+    margin:0;
+    padding:0;
+    color:white;
+}
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+p{
+    color:rgb(208, 208, 166);
+    font-size: 1.5rem;
+} */
+body{
+    margin:0;
+    font-family:"Merriweather",sans-serif;
+    color:rgb(44,41,44);
+    background-color: rgb(247,239,247);
+}
+#main-header{
+    background-color: rgba(106, 39, 5, 0.829);
+    color:white;
+    padding:2rem 5%;
+    text-align: center;
+}
+.btn{
+    font:inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(121, 56, 24);
+    border:1px solid rgb(106, 38, 5);
+    color:white;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.btn-alt{
+    background-color: transparent;
+    border-color: transparent;
+    color:rgb(106, 38, 5)
+}
+.btn:hover{
+    background-color: rgb(165, 113, 87);
+    border-color: rgb(122, 76, 53);
+}
+.btn-alt:hover{
+    background-color: rgb(245,232,255);
+}
